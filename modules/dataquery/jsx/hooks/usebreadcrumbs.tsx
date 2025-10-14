@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import {useTranslation} from 'react-i18next';
 import Breadcrumbs from 'jsx/Breadcrumbs';
 
 // Declared in smarty main.tpl
@@ -17,9 +18,10 @@ function useBreadcrumbs(
 ) {
   // update breadcrumbs breadcrumbs
   useEffect(() => {
+    const {t} = useTranslation('dataquery');
     const breadcrumbs = [
       {
-        text: 'Data Query Tool (Beta)',
+        text: t('Data Query Tool (Beta', {ns: 'dataquery'}),
         /**
          * OnClick handler for the main breadcrumb
          *
@@ -36,7 +38,7 @@ function useBreadcrumbs(
                 || activeTab == 'DefineFilters'
                 || activeTab == 'ViewData') {
       breadcrumbs.push({
-        text: 'Define Fields',
+        text: t('Define Fields', {ns: 'dataquery'}),
         /**
          * OnClick handler for the define fields breadcrumb
          *
@@ -52,7 +54,7 @@ function useBreadcrumbs(
     if (activeTab == 'DefineFilters'
                 || activeTab == 'ViewData') {
       breadcrumbs.push({
-        text: 'Define Filters',
+        text: t('Define Filters', {ns: 'dataquery'}),
         /**
          * OnClick handler for the define filters breadcrumb
          *
@@ -68,7 +70,7 @@ function useBreadcrumbs(
 
     if (activeTab == 'ViewData') {
       breadcrumbs.push({
-        text: 'View Data',
+        text: t('View Data', {ns: 'dataquery'}),
         /**
          * OnClick handler for the View Data breadcrumb
          *
