@@ -151,6 +151,12 @@ msgstr ""
 msgid "Project"
 msgstr ""
 
+msgid "Candidate Registration Project"
+msgstr ""
+
+msgid "Timepoint Project"
+msgstr ""
+
 msgid "Cohort"
 msgid_plural "Cohorts"
 msgstr[0] ""
@@ -180,6 +186,9 @@ msgid "Stage"
 msgstr ""
 
 msgid "Sent To DCC"
+msgstr ""
+
+msgid "Reverse Send To DCC"
 msgstr ""
 
 msgid "Date of Birth"
@@ -265,6 +274,37 @@ msgid "Withdrawal"
 msgstr ""
 
 msgid "In Progress"
+msgstr ""
+
+msgid "Complete"
+msgstr ""
+
+msgid "Instrument"
+msgid_plural "Instruments"
+msgstr[0] ""
+
+msgid "None"
+msgstr ""
+
+msgid "Partial"
+msgstr ""
+
+msgid "All"
+msgstr ""
+
+msgid "Data Entry"
+msgstr ""
+
+msgid "Administration"
+msgstr ""
+
+msgid "Double Data Entry Form"
+msgstr ""
+
+msgid "Double Data Entry Status"
+msgstr ""
+
+msgid "Double Data Entry"
 msgstr ""
 
 # Age related terms
